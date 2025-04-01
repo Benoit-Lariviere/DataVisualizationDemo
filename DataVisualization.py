@@ -44,6 +44,7 @@ runners = matches_df[matches_df['Runner-up'].notna()][['Year', 'Runner-up']]
 finals_df = winners.merge(runners, on='Year', how='left').drop_duplicates()
 
 app = Dash(__name__)
+server = app.server
 
 iso_codes = {
     'Brazil': 'BRA', 'Germany': 'DEU', 'Italy': 'ITA', 'Argentina': 'ARG',
