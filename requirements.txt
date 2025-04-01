@@ -1,6 +1,9 @@
 dash==2.14.2
 pandas==2.1.4
 plotly==5.18.0
-numpy==1.26.3
 gunicorn==21.2.0
 dash-bootstrap-components==1.6.0
+numpy==1.26.3
+lxml==4.9.3
+html5lib==1.1
+beautifulsoup4==4.12.2
